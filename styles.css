@@ -1,0 +1,72 @@
+body {
+ height: 100vh;
+ background: linear-gradient(
+  30grad,
+  red,
+  pink,
+  blue,
+  green,
+  yellow
+ );
+ overflow: hidden; 
+}
+
+h1 {
+text-align: center;
+color: rgb(249, 180, 32);
+}
+
+h2 {
+ text-align: center;
+ color: beige;
+}
+
+input {
+ display: flex;
+ margin: 0 auto;
+ color: antiquewhite;
+}
+
+div {
+ text-align: center;
+}
+
+img {
+ position: absolute;
+ top: 0;
+ left: 0;
+ border: 0;
+ transform: rotate(-100grad);
+}
+
+#preview img {
+ border: 1px solid black;
+ float: right;
+ margin: 0 1em 1em 0;
+ width: 10em;
+}
+
+@media only screen and (max-width: 900px) {
+ #preview img {
+  width: 10%;
+  height: auto;
+ }
+ .conteiner {
+  width: 90%;
+  float: right;
+ } 
+}
+
+@media only screen and (max-width: 400px) {
+ span {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden; 
+  font-size: 12px;
+ } 
+}
+@media only screen and (max-width: 350px) {
+ span {
+  font-size: 10px;
+ } 
+}
