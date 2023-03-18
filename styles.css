@@ -74,7 +74,7 @@ span {
     font-size: 12px;
   }
   img {
-    top: 0px;
+    top: 10px;
     width: 7vh;
     height: auto;
   }
@@ -86,6 +86,6 @@ span {
   }
 
   span {
-    font-size: 8px;
+    font-size: 4px;
   }
 }
