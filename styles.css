@@ -71,7 +71,7 @@ span {
     display: inline-block;
     width: 100%;
     overflow: hidden;
-    font-size: 1.3vh;
+    font-size: 1.3vh !important;
   }
   img {
     top: 0px;
@@ -83,9 +83,5 @@ span {
 @media only screen and (max-width: 350px) {
   input {
     font-size: 10px;
-  }
-
-  span {
-    font-size: 1vh !important;
   }
 }
