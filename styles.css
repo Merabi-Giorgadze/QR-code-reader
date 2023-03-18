@@ -39,6 +39,10 @@ img {
  transform: rotate(-100grad);
 }
 
+span {
+ color: azure;
+} 
+
 #preview img {
  border: 1px solid black;
  float: right;
