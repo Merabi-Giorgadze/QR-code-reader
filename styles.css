@@ -61,7 +61,7 @@ span {
  } 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
  span {
   display: inline-block;
   width: 100%;
@@ -70,6 +70,9 @@ span {
  } 
 }
 @media only screen and (max-width: 350px) {
+ input {
+    font-size: 10px;
+  }
  span {
   font-size: 10px;
  } 
