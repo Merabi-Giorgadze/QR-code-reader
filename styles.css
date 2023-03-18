@@ -89,3 +89,8 @@ span {
     font-size: 8px;
   }
 }
+@media only screen and (max-width: 300px) {
+   span {
+    font-size: 6px;
+  }
+}
