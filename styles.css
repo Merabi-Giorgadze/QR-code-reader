@@ -74,12 +74,6 @@ span {
 }
 
 @media screen and (max-width: 440px) {
-  span {
-    display: inline-block;
-    width: 100%;
-    overflow: hidden;
-    font-size: 1.3vh !important;
-  }
   img {
     top: 0px;
     width: 7vh;
