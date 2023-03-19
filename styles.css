@@ -49,7 +49,7 @@ span {
   width: 10em;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   #preview img {
     width: 10%;
     height: auto;
@@ -66,7 +66,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media screen and (max-width: 440px) {
   span {
     display: inline-block;
     width: 100%;
@@ -80,7 +80,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media screen and (max-width: 350px) {
   input {
     font-size: 10px;
   }
